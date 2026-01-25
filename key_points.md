@@ -24,6 +24,10 @@ use "from collections import defaultdict" to avoid guarding every access
 
 ## json.loads() & json.jumps()
 
+# class
+
+## .self
+
 # rag
 
 ## inversed index
@@ -32,11 +36,19 @@ use "from collections import defaultdict" to avoid guarding every access
 
 ## how to send requests
 
-@app.post("/chat", response_model=xxx)
+- @app.post("/chat", response_model=xxx)
+
+## xx.get("/health)
 
 ## error handling
 
 with HTTPException
+
+# testing
+
+@pytest+assert
+
+# pydantic
 
 # pandas
 

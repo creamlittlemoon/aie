@@ -8,9 +8,7 @@ def optiver_cnt(grid:List[List[str]]) -> int:
     word_len = len(target)
     
     rows = len(grid)
-    print(f'rows is : {rows}')
     cols = len(grid[0])
-    print(f'col is {cols}')
     
     count = 0
     
