@@ -14,6 +14,8 @@ key points
 
 ## dict_a.get("bmw", "no this type")
 
+## sorted(dict_a.items(), key=lambda x:x[1], ...)
+
 ## defaultdict
 
 use "from collections import defaultdict" to avoid guarding every access
@@ -49,6 +51,10 @@ with HTTPException
 @pytest+assert
 
 # pydantic
+
+Field, Body, ValidationError
+
+# async & await
 
 # pandas
 
