@@ -34,7 +34,7 @@ s = 431265
 
 
 
-
+# this is what i wrote....complete = =...
 list_s = list(str(s))
 result_even = [] 
 result_odd = []
